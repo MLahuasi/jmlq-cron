@@ -1,0 +1,46 @@
+{
+  "name": "@jmlq/cron",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "0.0.1-alpha.3",
+  "description": "A cron library designed with clean architecture principles in mind.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MLahuasi/jmlq-cron.git"
+  },
+  "homepage": "https://github.com/MLahuasi/jmlq-cron#readme",
+  "scripts": {
+    "dev": "rimraf dist && mkdir dist && tsc -p tsconfig.json",
+    "build": "rimraf dist && mkdir dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "cron",
+    "clean-architecture",
+    "typescript"
+  ],
+  "author": "MLahuasi",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "cron": ">4.3.3"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "@swc/core": "^1.3.95",
+    "@swc/jest": "^0.2.29",
+    "@types/bcryptjs": "^2.4.5",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.8.10",
+    "@types/pg": "^8.15.6",
+    "jest": "^29.7.0",
+    "tsx": "^4.1.4",
+    "typescript": "^5.2.2"
+  }
+}
