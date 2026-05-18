@@ -1,6 +1,6 @@
 # @jmlq/cron 🧩
 
-![](./assets/jmlq-cron-banner.png)
+![](./assets/jmlq-cron-banner-en.png)
 
 A cron-based library designed with **Clean Architecture principles**.
 
