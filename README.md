@@ -1,5 +1,7 @@
 # @jmlq/cron 🧩
 
+![](./assets/jmlq-cron-banner.png)
+
 A cron-based library designed with **Clean Architecture principles**.
 
 `@jmlq/cron` provides a simple and extensible way to schedule background tasks in `Node.js` applications without coupling business logic to a specific `cron` implementation.
@@ -153,6 +155,10 @@ Example external implementation:
 - [Configure timezone](./docs/en/configuration.md#timezone)
 - [Integrate with Express](./docs/en/integration-express.md)
 - [Check troubleshooting](./docs/en/troubleshooting.md)
+
+## 🧩 Implementation Example
+
+- [View real integration and documentation](https://github.com/MLahuasi/jmlq-ecosystem/blob/main/doc/en/%40jmlq/cron/core.md)
 
 ---
 
